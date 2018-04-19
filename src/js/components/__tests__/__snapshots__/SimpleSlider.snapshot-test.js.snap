@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleSlider render when no videos 1`] = `
+<div>
+  Loading videos ...
+</div>
+`;
+
+exports[`SimpleSlider render with videos 1`] = `
+<div
+  className="simple-slider"
+>
+  <Slider
+    accessibility={true}
+    afterChange={[Function]}
+    dots={false}
+    focusOnSelect={false}
+    infinite={true}
+    slideCount={1}
+    slidesToScroll={1}
+    slidesToShow={5}
+  >
+    <div>
+      <div
+        className="thumbnail movie-card movie-card--not-hover"
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+      >
+        <video>
+          <source
+            src=""
+            type="video/mp4"
+          />
+        </video>
+        <div
+          className="caption"
+        >
+          <h5>
+            test
+          </h5>
+          <p
+            className="card-text movie-description"
+          >
+            test
+          </p>
+        </div>
+      </div>
+    </div>
+  </Slider>
+</div>
+`;

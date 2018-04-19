@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieCard changes when hovered 1`] = `
+<div
+  className="thumbnail movie-card movie-card--not-hover"
+  onMouseLeave={[Function]}
+  onMouseOver={[Function]}
+>
+  <video>
+    <source
+      src="test"
+      type="video/mp4"
+    />
+  </video>
+  <div
+    className="caption"
+  >
+    <h5>
+      Test
+    </h5>
+    <p
+      className="card-text movie-description"
+    >
+      test
+    </p>
+  </div>
+</div>
+`;
+
+exports[`MovieCard changes when hovered 2`] = `
+<div
+  className="thumbnail movie-card movie-card--hover"
+  onMouseLeave={[Function]}
+  onMouseOver={[Function]}
+>
+  <video>
+    <source
+      src="test"
+      type="video/mp4"
+    />
+  </video>
+  <div
+    className="caption"
+  >
+    <h5>
+      Test
+    </h5>
+    <p
+      className="card-text movie-description"
+    >
+      test
+    </p>
+  </div>
+</div>
+`;

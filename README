@@ -1,0 +1,7 @@
+# react-vod
+A simple video-on-demand web application 
+
+To run the app:
+$> npm install
+$> npm run dev
+Go to http://localhost:8080/

@@ -1,0 +1,25 @@
+.movie-card {
+    margin: 0 10px;
+    position: 'relative';
+    video {
+        width: 100%    !important;
+        height: auto   !important;
+    }
+}
+
+.movie-card--not-hover h5{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.movie-card--not-hover .movie-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 80px;
+    line-height: 20px;
+}
+
+.movie-card .movie-description{
+    min-height: 80px;
+}
